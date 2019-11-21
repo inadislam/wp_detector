@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
 import os
 
 o = open ("others.txt", "a+")
@@ -37,9 +36,9 @@ def banner():
     os.system("clear")
     
     print("###########################################################")
-    print("#        Tool: WordPress Site splitter                    #")
+    print("#        Tool: WordPress Site Detector                    #")
     print("#        Author: Inad Islam                               #")
-    print("#   A Wordpress site splitter for Private User's Only     #")
+    print("#   A Wordpress site detector			     #")
     print("###########################################################")
 
 def s():
